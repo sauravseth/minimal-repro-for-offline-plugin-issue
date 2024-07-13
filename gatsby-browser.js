@@ -8,5 +8,5 @@ export const replaceHydrateFunction = () => (element, container) => {
     root.render(element);
     return;
   }
-  hydrateRoot(element, container);
+  hydrateRoot(container, element);
 };
